@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+
+<style id="webmakerstyle">
+@font-face {
+  font-family: "GothamBold";
+  src: url("https://files.sobloxsy.com/Gotham-Bold.eot");
+  src: url("https://files.sobloxsy.com/Gotham-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://files.sobloxsy.com/Gotham-Bold.woff2") format("woff2"),
+    url("https://files.sobloxsy.com/Gotham-Bold.woff") format("woff"),
+    url("https://files.sobloxsy.com/Gotham-Bold.ttf") format("truetype"),
+    url("https://files.sobloxsy.com/Gotham-Bold.svg#Gotham-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url("https://files.sobloxsy.com/Gotham-Medium.eot");
+  src: url("https://files.sobloxsy.com/Gotham-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://files.sobloxsy.com/Gotham-Medium.woff2") format("woff2"),
+    url("https://files.sobloxsy.com/Gotham-Medium.woff") format("woff"),
+    url("https://files.sobloxsy.com/Gotham-Medium.ttf") format("truetype"),
+    url("https://files.sobloxsy.com/Gotham-Medium.svg#Gotham-Medium")
+      format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GothamBold1";
+  src: url("https://files.sobloxsy.com/Gotham-Bold_1.eot");
+  src: url("https://files.sobloxsy.com/Gotham-Bold_1.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://files.sobloxsy.com/Gotham-Bold_1.woff2") format("woff2"),
+    url("https://files.sobloxsy.com/Gotham-Bold_1.woff") format("woff"),
+    url("https://files.sobloxsy.com/Gotham-Bold_1.ttf") format("truetype"),
+    url("https://files.sobloxsy.com/Gotham-Bold_1.svg#Gotham-Bold")
+      format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GothamBlack";
+  src: url("https://files.sobloxsy.com/Gotham-Black.eot");
+  src: url("https://files.sobloxsy.com/Gotham-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://files.sobloxsy.com/Gotham-Black.woff2") format("woff2"),
+    url("https://files.sobloxsy.com/Gotham-Black.woff") format("woff"),
+    url("https://files.sobloxsy.com/Gotham-Black.ttf") format("truetype"),
+    url("https://files.sobloxsy.com/Gotham-Black.svg#Gotham-Black")
+      format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GothamMedium1";
+  src: url("https://files.sobloxsy.com/Gotham-Medium_1.eot");
+  src: url("https://files.sobloxsy.com/Gotham-Medium_1.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://files.sobloxsy.com/Gotham-Medium_1.woff2") format("woff2"),
+    url("https://files.sobloxsy.com/Gotham-Medium_1.woff") format("woff"),
+    url("https://files.sobloxsy.com/Gotham-Medium_1.ttf") format("truetype"),
+    url("https://files.sobloxsy.com/Gotham-Medium_1.svg#Gotham-Medium")
+      format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #323233;
+  color: white;
+  font-family: GothamMedium;
+  text-align: center;
+}
+
+.game {
+  background: #363636;
+  margin: auto;
+  border: 5px;
+
+  border-radius: 15px;
+  font-family: gothammedium, sans-serif;
+  transition-duration: 0.4s;
+  outline: none;
+
+  width: 550px;
+  height: auto;
+}
+
+.game > p, h3 {
+  font-size: 25px;
+  color: white;
+}
+
+.game > embed {
+  width: 500px;
+  height: 550px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+</style>
+</head>
+<body>
+<title>Sobloxsy Games</title>
+
+<div class="game">
+  <embed src="https://sobloxsy.github.io/2048/" />
+
+</div>
+  <p>2048 - What to do</p>
+  <p>
+    The goal is to get a single tile to be 2048. Get two of the same numbers
+    next to each other and add them together using your arrow keys. Use the
+    arrow keys to move your tiles in one direction or another. Make sure to take a break
+    every now and then for food and water.
+  </p>
+  
+
+</body>
+</html>
