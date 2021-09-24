@@ -83,14 +83,20 @@ body {
   color: white;
   font-family: GothamMedium;
   text-align: center;
+  height: 100%;
 }
 
 h1 {
   font-size: 2rem;
 }
 h2 {
-  font-size: .8rem;
-  margin-top: -15px
+  font-size: 0.8rem;
+  margin-top: -15px;
+}
+h3 {
+  font-size: 0.7rem;
+  margin-top: -4px;
+  color: grey;
 }
 
 button {
@@ -115,15 +121,21 @@ button > p {
 
 button:hover {
   background: #858585;
-  border-radius: 15px;
-  color: black;
+  border-radius: 20px;
 }
 
 button > img {
   width: 100px;
-  border: 24px;
+  border-radius: 18px;
   margin-top: 10px;
   vertical-align: text-top;
+}
+
+.games {
+  background-color: rgb(38, 38, 38);
+  border-radius: 25px;
+  width: 75%;
+  margin: auto;
 }
 
 </style>
@@ -134,15 +146,25 @@ button > img {
 <h1>
   Games
   <h2>By Sobloxsy</h2>
+  <h3>from Iren</h3>
 </h1>
-<a href="https://games.sobloxsy.com/games/1-2048">
-<button >
-  <img
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/1200px-2048_logo.svg.png"
-  />
-  <p>2048</p>
-</button>
-</a>
+<div class="games">
+  <a href="https://games.sobloxsy.com/games/1-2048">
+    <button>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/1200px-2048_logo.svg.png"
+      />
+      <p>2048</p>
+    </button>
+  </a>
+  <a href="https://games.sobloxsy.com/games/1-C4">
+    <button>
+      <img src="https://games.sobloxsy.com/images/4.jpg" />
+      <p>Connect Four</p>
+    </button>
+  </a>
+</div>
+
 
 </body>
 </html>
