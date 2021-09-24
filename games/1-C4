@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+
+<style id="webmakerstyle">
+@font-face {
+  font-family: "GothamBold";
+  src: url("https://files.sobloxsy.com/Gotham-Bold.eot");
+  src: url("https://files.sobloxsy.com/Gotham-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://files.sobloxsy.com/Gotham-Bold.woff2") format("woff2"),
+    url("https://files.sobloxsy.com/Gotham-Bold.woff") format("woff"),
+    url("https://files.sobloxsy.com/Gotham-Bold.ttf") format("truetype"),
+    url("https://files.sobloxsy.com/Gotham-Bold.svg#Gotham-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url("https://files.sobloxsy.com/Gotham-Medium.eot");
+  src: url("https://files.sobloxsy.com/Gotham-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://files.sobloxsy.com/Gotham-Medium.woff2") format("woff2"),
+    url("https://files.sobloxsy.com/Gotham-Medium.woff") format("woff"),
+    url("https://files.sobloxsy.com/Gotham-Medium.ttf") format("truetype"),
+    url("https://files.sobloxsy.com/Gotham-Medium.svg#Gotham-Medium")
+      format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GothamBold1";
+  src: url("https://files.sobloxsy.com/Gotham-Bold_1.eot");
+  src: url("https://files.sobloxsy.com/Gotham-Bold_1.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://files.sobloxsy.com/Gotham-Bold_1.woff2") format("woff2"),
+    url("https://files.sobloxsy.com/Gotham-Bold_1.woff") format("woff"),
+    url("https://files.sobloxsy.com/Gotham-Bold_1.ttf") format("truetype"),
+    url("https://files.sobloxsy.com/Gotham-Bold_1.svg#Gotham-Bold")
+      format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GothamBlack";
+  src: url("https://files.sobloxsy.com/Gotham-Black.eot");
+  src: url("https://files.sobloxsy.com/Gotham-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://files.sobloxsy.com/Gotham-Black.woff2") format("woff2"),
+    url("https://files.sobloxsy.com/Gotham-Black.woff") format("woff"),
+    url("https://files.sobloxsy.com/Gotham-Black.ttf") format("truetype"),
+    url("https://files.sobloxsy.com/Gotham-Black.svg#Gotham-Black")
+      format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GothamMedium1";
+  src: url("https://files.sobloxsy.com/Gotham-Medium_1.eot");
+  src: url("https://files.sobloxsy.com/Gotham-Medium_1.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://files.sobloxsy.com/Gotham-Medium_1.woff2") format("woff2"),
+    url("https://files.sobloxsy.com/Gotham-Medium_1.woff") format("woff"),
+    url("https://files.sobloxsy.com/Gotham-Medium_1.ttf") format("truetype"),
+    url("https://files.sobloxsy.com/Gotham-Medium_1.svg#Gotham-Medium")
+      format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #323233;
+  color: white;
+  font-family: GothamMedium;
+  text-align: center;
+}
+
+.game {
+  background: #363636;
+  margin: auto;
+  border: 5px;
+
+  border-radius: 15px;
+  font-family: gothammedium, sans-serif;
+  transition-duration: 0.4s;
+  outline: none;
+
+  width: 550px;
+  height: auto;
+}
+
+.game > p,
+h3 {
+  font-size: 25px;
+  color: white;
+}
+
+.game > embed {
+  width: 500px;
+  height: 550px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.message {
+  background: #262626;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+<title>Sobloxsy Games - Connect 4</title>
+
+<div class="game"><embed src="https://sobloxsy.github.io/c4/" /></div>
+<div class="message">
+  <h4>Connect Four - What to do</h4>
+  <p>
+    Please refer to
+    <a href="https://en.wikipedia.org/wiki/Connect_Four" target="_blank"
+      >Wikipedia article on Connect Four</a
+    >
+    for how to play.
+  </p>
+</div>
+
+<script src="filesystem:chrome-extension://lkfkkhfhhdkiemehlpkgjeojomhpccnh/temporary/script.js">
+</script>
+</body>
+</html>
